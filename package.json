@@ -1,0 +1,14 @@
+{
+  "name": "human-design",
+  "version": "1.0.0",
+  "description": "A design skill for AI coding tools that produces interfaces made by a person, not a model.",
+  "keywords": ["ai", "design", "skill", "claude", "cursor", "gemini", "chatgpt", "ui", "ux"],
+  "license": "MIT",
+  "author": "Tuan Anh",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "clean": "rm -rf dist",
+    "rebuild": "npm run clean && npm run build"
+  }
+}
